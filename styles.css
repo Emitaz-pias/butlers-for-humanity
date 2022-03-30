@@ -1,11 +1,13 @@
 * {
-  margin: none;
+  margin: 0;
   padding: 0;
 }
 .full-site {
   background-color: black;
 }
-
+.top-section {
+  height: 80vh;
+}
 .logo {
   width: 23%;
   border-radius: 0.2em;
@@ -22,4 +24,41 @@
 .custom-nav-item:hover {
   background-color: white;
   color: black;
+}
+
+.headers {
+  color: white;
+  font-family: "Inconsolata", monospace;
+}
+.story-section {
+  height: 110vh;
+  background-color: black;
+}
+.storyHeader {
+  font-family: "Palette Mosaic" !important;
+}
+.utility-section {
+  height: auto !important;
+}
+
+.paragraphs {
+  color: white;
+  font-size: 1.3em;
+  font-family: "Josefin Sans", sans-serif;
+}
+.butlerImage {
+  width: 70%;
+}
+.gameinfo-section {
+  height: 100vh;
+  background-color: black;
+  border: 2px solid red;
+}
+.faq-wrapper {
+  border: 2px solid red;
+  border-radius: 5px;
+  height: auto;
+}
+.faq-question {
+  border-bottom: 2px solid red;
 }
