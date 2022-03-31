@@ -52,12 +52,13 @@
 .gameinfo-section {
   height: 100vh;
   background-color: black;
-  border: 2px solid red;
+}
+.faq-section{
+  height: auto;
 }
 .faq-wrapper {
   border: 2px solid red;
   border-radius: 5px;
-  height: auto;
 }
 .faq-question {
   border-bottom: 2px solid red;
