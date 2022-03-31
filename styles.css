@@ -63,3 +63,6 @@
 .faq-question {
   border-bottom: 2px solid red;
 }
+.roadmap-section{
+  height: 100vh
+}
